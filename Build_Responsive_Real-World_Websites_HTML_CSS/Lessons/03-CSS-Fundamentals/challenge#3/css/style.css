@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  border: black solid 4px;
+  margin-top: 50px;
+}
+
+h3 {
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+strong {
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: square;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: black;
+  border: none;
+  border-top: black solid 4px;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  cursor: pointer;
+  width: 100%;
+  padding: 11px;
+  font-size: 22px;
+}
+
+button:hover {
+  background-color: white;
+  border: none;
+  border-top: black solid 4px;
+  color: black;
+  text-transform: uppercase;
+  padding: 5px;
+  cursor: pointer;
+  width: 100%;
+  padding: 11px;
+  font-size: 22px;
+}
+
+.container {
+  width: 825px;
+  margin: 0 auto;
+}
+
+.title-header {
+  background-color: #f7f7f7;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+}
+
+.title-header::after {
+  content: "SALE";
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  letter-spacing: 0.2rem;
+  padding: 7px 15px;
+  position: absolute;
+  top: -15px;
+  left: -35px;
+}
+
+.sub-header {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.boxes-container {
+  margin-top: 25px;
+}
+
+.black-box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.blue-box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.red-box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.yellow-box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: yellow;
+  margin-right: 10px;
+}
+
+.green-box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  margin-right: 10px;
+}
+
+.brown-box {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-color: brown;
+  margin-right: 10px;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+}
