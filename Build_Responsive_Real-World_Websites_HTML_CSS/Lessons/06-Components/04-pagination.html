@@ -47,31 +47,9 @@
         position: relative;
       }
 
-      .numbers {
-        display: flex;
-        align-items: center;
-        gap: 32px;
-      }
-
-      .number {
-        width: 40px;
-        height: 40px;
-        font-size: 20px;
-        border-radius: 50%;
-        cursor: pointer;
-        border: none;
-        background-color: #fff;
-        color: #343a40;
-      }
-
-      .number:hover {
-        background-color: #087f5b;
-        color: #fff;
-      }
-
       .btn {
         background-color: #fff;
-        border: 2px solid #087f5b;
+        border: 1px solid #087f5b;
         height: 48px;
         width: 48px;
         position: absolute;
@@ -108,20 +86,25 @@
         width: 24px;
         stroke: #087f5b;
       }
+
+      .page-link:link,
+      .page-link:visited {
+        font-size: 18px;
+        color: #343a40;
+        text-decoration: none;
+        height: 36px;
+        width: 36px;
+        display: inline-block;
+      }
+      .page-link:hover,
+      .page-link:active {
+        background-color: #087f5b;
+        color: #fff;
+      }
     </style>
   </head>
   <body>
     <div class="pagination">
-      <div class="numbers">
-        <button class="number">1</button>
-        <button class="number">2</button>
-        <button class="number">3</button>
-        <button class="number">4</button>
-        <button class="number">5</button>
-        <button class="number">6</button>
-        <button class="number">...</button>
-        <button class="number">23</button>
-      </div>
       <button class="btn btn--left">
         <svg
           class="btn-icon"
@@ -138,6 +121,15 @@
           ></path>
         </svg>
       </button>
+      <a href="#" class="page-link">1</a>
+      <a href="#" class="page-link">2</a>
+      <a href="#" class="page-link">3</a>
+      <a href="#" class="page-link">4</a>
+      <a href="#" class="page-link">5</a>
+      <a href="#" class="page-link">6</a>
+      <span class="dots">...</span>
+      <a href="#" class="page-link">23</a>
+
       <button class="btn btn--right">
         <svg
           class="btn-icon"
