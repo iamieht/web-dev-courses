@@ -13,3 +13,11 @@ console.log(ivan);
 
 const ivan2 = `I'm ${myName} and I'm ${myAge} years old`;
 console.log(ivan2);
+
+/* Conditional
+
+if() {
+
+ } else {
+
+} */
