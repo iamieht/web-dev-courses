@@ -47,3 +47,16 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+.hero {
+  /* max-width will make it a responsive container */
+  max-width: 130rem; /*1300px*/
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+  /* The width will be 100% of the parent container hero-img-box */
+  width: 100%;
+}
