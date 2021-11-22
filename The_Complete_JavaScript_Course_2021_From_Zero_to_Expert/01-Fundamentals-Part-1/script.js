@@ -45,3 +45,13 @@ console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean("Jonas"));
 console.log(Boolean({}));
+
+// Comparison operators
+// === Strict equality operator. DOes not perform type coercion.
+// == Loose equality operator. DOes type coercion
+// !== Strict not equal
+// != Loose not equal
+
+// Logical operators
+// &&: AND
+// ||: OR
