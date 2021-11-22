@@ -37,3 +37,11 @@ console.log(String(23));
 console.log("I am " + 23 + " years old");
 console.log("23" + "10" + 3); // number will be converted to string and concatenated: '23103'
 console.log("23" - "10" - 3); // strings will be converterted to numbers and the result is 10
+
+// Type conversion booleans
+// falsy values (5): 0, '', undefined, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
